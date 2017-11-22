@@ -99,11 +99,30 @@ a {
     font-weight: 700;
     text-align: center;
     /* letter-spacing: 1px; */
+    padding: 40px;
     font-size: 30px;
 
     text-transform: uppercase;
 }
-
+.projects-top{
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+	padding:  40px;
+}
+.projects-bottom{
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+	padding:  40px;
+}
+.logo{
+	width: 150px;
+	height: 150px;
+}
+.project{
+	display: flex;
+}
 
 .aboutme-picture>img{
 	width: 200px;
