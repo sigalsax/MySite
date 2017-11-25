@@ -23,6 +23,7 @@ body{
 	letter-spacing: 4px;
 	/* font-weight: 500; */
 }
+
 .nav-bar > li > a{
 	color: white;
 	text-transform: uppercase;
@@ -33,6 +34,7 @@ a {
 }
 .top{
 	background-image: url("SiteImages/background.png");
+	/* width: 10000px; */
 }
 .nav-background {
 	/* width: 800px; */
@@ -56,14 +58,14 @@ a {
 	/* width: 100%; */
 }
 .github{
-	width: 30px;
-	height: 30px;
+	width: 40px;
+	height: 40px;
 	padding-right: 10px;
 	/* padding: 10px; */
 }
 .resume{
-	width: 30px;
-	height: 30px;
+	width: 40px;
+	height: 40px;
 	padding-right: 10px;
 	/* padding: 10px; */
 
@@ -91,7 +93,14 @@ a {
 .box{
     max-width: 800px;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.wide-box{
+	margin: 0 auto;
+    padding-top: 30px;
+    max-width: 1050px;
+	padding-bottom: 70px;
 }
 
 .title{
@@ -104,27 +113,86 @@ a {
 
     text-transform: uppercase;
 }
+.aboutme-description{
+ 
+    font-family: 'Source Sans Pro', sans-serif;
+   
+	font-size: 15px;
+    letter-spacing: .05em;
+    font-weight: lighter;
+    /* letter-spacing: .1em; */
+}
+.project-title{
+    font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 20px;
+}
 .projects-top{
 	display: flex;
 	margin: 0 auto;
 	justify-content: center;
-	padding:  40px;
+	/* width: 1210px; */
+	flex-direction: row;
+	padding-bottom: 40px;
 }
 .projects-bottom{
 	display: flex;
 	margin: 0 auto;
 	justify-content: center;
-	padding:  40px;
-}
-.logo{
-	width: 150px;
-	height: 150px;
+	/* width: 1210px; */
+	padding-bottom: 40px;
+	flex-direction: row;
 }
 .project{
 	display: flex;
-}
 
+}
+.project-desc{
+    font-family: 'Source Sans Pro', sans-serif;   
+    letter-spacing: .05em;
+    font-weight: lighter;
+}
+.logo{
+	width: 105px;
+	height: 105px;
+	padding: 20px;
+}
+.project{
+	/* display: flex; */
+	/* flex-direction: column; */
+}
+.projecttop{
+	display: flex;
+	flex-direction: column;
+
+}
+.project-title{
+	  text-transform: uppercase;
+	  padding-bottom: 10px;
+
+}
 .aboutme-picture>img{
 	width: 200px;
 	float: right;
+}
+.aboutme{
+	display: flex;
+}
+.aboutme-picture{
+	align-items: center;
+}
+.aboutme-picture>img{
+	    padding-left: 30px;
+}
+/* .projects{
+	display: flex;
+} */
+.contact-description{
+	max-width: 350px;
+	margin: 0 auto;
+}
+.contact{
+	    font-family: 'Source Sans Pro', sans-serif;
+   
+    font-size: 16px;
+    letter-spacing: .05em;
 }
