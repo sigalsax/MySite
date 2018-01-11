@@ -4,13 +4,15 @@
 <head>
   <meta charset="UTF-8">
    <link href="style.css" rel= "stylesheet"/>
-   <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Roboto|SourceSans+Pro|Helvetica+Neue|Domine|Dosis|Oswald|Ubuntu+Condensed|Yanone+Kaffeesatz|Open+Sans|Libre+Barcode+39+Text|Vollkorn+SC" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Roboto|SourceSans+Pro|Helvetica+Neue|Domine|Dosis|Oswald|Ubuntu+Condensed|Yanone+Kaffeesatz|Open+Sans|Libre+Barcode+39+Text|Vollkorn+SC|Helvetica+Neue" rel="stylesheet">
+
    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
  	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
  	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebasneueregular" type="text/css"/>
+ 	<script src="Javascript.js"></script>
 </head>
 
 <body>
@@ -19,6 +21,7 @@
 	<div class="top">
 		<div class="top-nav">
 			<div class="logo-nav">
+				<img class= "coarse_logo" src="SiteImages/coarselogo2.png">
 			<!-- 	<p>COARSE CODING</p> -->
 			</div>
 			<div class="nav-bar">
@@ -81,7 +84,8 @@
 							<p class="coarse project-desc">I built this site using raw HTML, CSS, and Javascript. It was nice to take a break from building other's sites and focus on my own, having freedom of expression and creative ability.</p>
 						</div>
 					</div>
-					<p class="learn-more">Learn more</p>
+					<p class="learn-more coarse-coding"  id ="learn">Learn more</p>
+					
 				</div>
 			</div>
 			<div class="action-card">
@@ -94,11 +98,13 @@
 							</div>
 						
 							<div class="intra project-desc">
-								<p>I built this site using raw HTML, CSS, and Javascript. It was nice to take a break from building other's sites and focus on my own, having freedom of expression and creative ability.</p>
+								<p>The idea for my most recent project stemmed from the realization that there was a hole in the e-gaming market. Only the top, professional video gamers play for profit and perks, leaving...</p>
+								<!--  the rest of the market untouched. This is what led me to co-found Intraleagues, a platform that offers gamers an opportunity to build a cohesive network and game with peers in their area for both fun and profit. I was responsible for outreach, staging, and development of the website. By the end of six months, we had 70 active users, three leagues, and competed for and won angel seed money to continue to build our user base and extend our reach. -->
 							</div>
 						</div>
 					</div>
-					<p class="learn-more">Learn more</p>
+					<p class="learn-more intra" id ="learn2">Learn more</p>
+					
 				</div>
 			</div>
 		</div>
@@ -110,10 +116,16 @@
 						<img class="logo" src="SiteImages/wanderericon.png">
 						<div class="wanderer project-col">
 							<p  class="wanderer project-title">The Kosher Wanderer</p>
-							<p class="wanderer project-desc">I built this site using raw HTML, CSS, and Javascript. It was nice to take a break from building other's sites and focus on my own, having freedom of expression and creative ability.</p>
-						</div>					
+							<p class="wanderer project-desc">
+							This blog was one of my first projects where I really was able to learn how to build a site (compatible across all platforms, what is aesthetically pleasing and what wasn't, etc). This project was as challenging as it...</p>
+							<!--   was rewarding because it is what sparked my interest in Front-End Development. -->
+						</div>	
+			
 					</div>
-					<p class="learn-more">Learn more</p>
+
+				<p class="learn-more wanderer" id ="learn3">Learn more</p>
+	
+
 				</div>
 			</div>
 			<div class="action-card">
@@ -122,12 +134,11 @@
 						<img class="logo" src="SiteImages/life.png">
 						<div class="life project-col">
 							<p class="life project-title">Life Physical Therapy</p>
-							<p class="life project-desc">I built this site using raw HTML, CSS, and Javascript. It was nice to take a break from building other's sites and focus on my own, having freedom of expression and creative ability.</p>
+							<p class="life project-desc">Life PT I designed and implemented a custom SEO platform in order to improve the business's competitive posture. As a result of my work, Life PT has seen an 20% increase of business and positive reviews.</p>
 						</div>
 					</div>
-					<p class="learn-more">Learn more</p>
+					<p class="learn-more lifept" id ="learn4">Learn more</p>
 				</div>
-				
 			</div>
 		</div>
 	</div>
@@ -174,7 +185,11 @@
 		</div>
 		<div class="box work" id='work'>
 			<div class="work-description ">
-				<p>Hello and welcome to my page! My name is Sigal and I am a senior at Brandeis University (not for much longer). I love to design and develop web pages, software, scripts using both new and old technologies that I happen upon. A lot of what I have learned and accomplished has been self-taught. Please feel free to take a look around my page. For more a detailed explanaton of my previous projects please see the 'Projects' section below or click on the little file icon at the top of the page. Happy reading!</p>
+				<p>&emsp;In addition to my academics, I have a diversified background in programming, development, and design. This past summer I worked for CyberArk Software Inc. as an Information Security Services Intern. Here, I developed and designed a UI-based program featured in the 2017 CyberArk IMPACT Conference for over 1,000 customers, employees, and partners using the .NET Framework and C#. I had never programmed in C# but chose to do so because after some research, I thought its UI capability would be far more expressive than Java’s. With every iteration, I worked tirelessly, beating the deadlines, forcing myself to be uncomfortable but ultimately trusting my abilities to navigate the obstacles as they came. Currently at Conjur Inc., I am a Software Engineer Intern, building, designing, and maintaining their Ruby-backed public facing website. The opportunities I have pursued and continue to pursue have reinforced my programming abilities, and have afforded me the confidence and autonomy to seek out and learn new web technologies.</p><br>
+				<p>&emsp;For my most recent project, I have utilized what I have learned through academia and side-projects and tapped into my entrepreneurial spirit to build my idea from concept to market. The idea for my most recent project stemmed from the realization that there was a hole in the e-gaming market. Only the top, professional video gamers play for profit and perks, leaving the rest of the market untouched. This is what led me to co-found Intraleagues, a platform that offers gamers an opportunity to build a cohesive network and game with peers in their area for both fun and profit. I was responsible for outreach, staging, and development of the website. By the end of six months, we had 70 active users, three leagues, and competed for and won angel seed money to continue to build our user base and extend our reach. After such a successful term, I have since turned to consulting young startups in the New England area on how to achieve their own end of term goals, turning their ideas to successful businesses.</p>
+
+
+
 			</div>
 		</div>
 	</div>
@@ -182,7 +197,7 @@
 	<div class="gray"> -->
 		<div class="wide-box languages" id='languages'>
 		<div class="title">
-			<p class="title-center languages-title">Programming + Native Languages</p>
+			<p class="title-center languages-title">Programming Languages</p>
 		</div>
 		
 			<div class="languages-description">
@@ -206,6 +221,11 @@
 				</div>
 			</div>
 
+		<div class="title">
+			<p class="title-center languages-title">Languages Spoken</p>
+			<p class="languages_spoken">English &emsp;|&emsp; Hebrew &emsp;|&emsp; Russian</p>
+			
+		</div>
 				<!-- English -->
 				<!-- Hebrew -->
 				<!-- Russian -->
@@ -229,8 +249,8 @@
 				<!-- Hebrew -->
 				<!-- Russian -->
 		<!-- 	</div> -->
-	
-		<div class="box contact" id='contact'>
+	<div class="gray contact">
+		<!-- <div class="box contact" id='contact'> -->
 			<p class="title contact-title">Contact</p>
 			<div class="contact-description">
 				<p>Want to contact me? I would love nothing more!</p>
@@ -238,6 +258,13 @@
 			</div>
 		</div>
 		<div class="footer">
+			<div class="footer_logo">
+				<img class= "footer_coarse_logo" src="SiteImages/coarselogo2.png">
+			</div>
+			<div class="footer_description">
+				<p> Copyright © 2018 Sigal Sax and CoarseCoding thekosherwanderer.com • All rights reserved. Celebrating the beauty in design and development.</p>
+		
+			</div>
 		</div>
 	</div>
 </body>
