@@ -9,7 +9,7 @@ body{
     margin: 0 auto; */
 }
 .separator-bottom::before{
-	content: '';
+    content: '';
     width: 0;
     height: 0;
     border-style: solid;
@@ -20,12 +20,12 @@ body{
     border-left-width: 50vw;
     position: absolute;
     z-index: 9;
-        border-left-color: transparent;
+    border-left-color: transparent;
     border-right-color: transparent;
     right: 50%;
 }
 .separator-bottom::after{
-	content: '';
+    content: '';
     width: 0;
     height: 0;
     border-style: solid;
@@ -43,8 +43,7 @@ body{
     transform: rotateY(180deg);
 }
 .triangle{
-
-width: 100px;
+    width: 100px;
     height: 100px;
     background: red;
     /* width: 150px; */
@@ -140,7 +139,7 @@ a {
 }
 
 .box{
-	background: #f7f9fb;
+    background: #f7f9fb;
     max-width: 700px;
     margin: 0 auto;
     padding-top: 30px;
@@ -154,10 +153,10 @@ a {
 	padding-top: 0px;
 }
 .wide-box{
-	margin: 0 auto;
+    margin: 0 auto;
     padding-top: 120px;
     max-width: 1050px;
-	padding-bottom: 70px;
+    padding-bottom: 70px;
 	
 }
 .projects{
@@ -175,14 +174,14 @@ a {
 
 }
 .project{	
-	background: white;
+    background: white;
     border-bottom: 1px solid #ddd;
     background-color: #fff;
     margin-bottom: 10px;
     /* padding: 30px; */
 }
 .test{
-	    width: 100px;
+    width: 100px;
     height: 100px;
     border: 1px solid black;
     margin: 10px;
@@ -198,7 +197,7 @@ a {
 	margin-top: -70px;
 }
 .languages-description{
-	background: white;
+    background: white;
     /* border-bottom: 1px solid #ddd; */
     background-color: #fff;
     margin-bottom: 10px;
@@ -213,7 +212,7 @@ a {
 	padding-top: 30px;
 }
 .tool-description{
-		background: white;
+    background: white;
     /* border-bottom: 1px solid #ddd; */
     background-color: #fff;
     margin-bottom: 10px;
@@ -269,7 +268,7 @@ a {
 	padding: 60px;
 
 	padding-bottom: 110px;
-	border-bottom-width: 1px;
+    border-bottom-width: 1px;
     border-color: #e3e9ef;
     border-style: solid;
     /* position: relative; */
