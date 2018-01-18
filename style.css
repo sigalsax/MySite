@@ -96,12 +96,10 @@ li.logo-nav {
 }
 .fixed-nav .site-wrap{
 	transform: scale(1);
-
 }
 
 .nav-bar{
 	padding: 20px;
-	/* padding-left: 120px; */
 	display: flex;
 	flex-direction: row;
 	font-size: 20px;
@@ -364,8 +362,10 @@ a {
 .title-over {
     margin-bottom: -20px;
     line-height: 1;
-    position: absolute;
-    margin-left: 10%;
+    position: relative;
+    z-index: 1;
+    top: 60px;
+    margin-left: 15%;
     /* display: inline-block; */
     padding: 10px;
     text-transform: uppercase;
