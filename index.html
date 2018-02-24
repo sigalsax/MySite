@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-   <link href="style.css" rel= "stylesheet"/>
+   <link href="css/style.css" rel= "stylesheet"/>
    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Roboto|SourceSans+Pro|Helvetica+Neue|Domine|Dosis|Oswald|Ubuntu+Condensed|Yanone+Kaffeesatz|Open+Sans|Libre+Barcode+39+Text|Vollkorn+SC|Helvetica+Neue" rel="stylesheet">
 
    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
@@ -12,7 +12,6 @@
  	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
  	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebasneueregular" type="text/css"/>
- 	<script src="Javascript.js"></script>
 </head>
 
 <body>
@@ -24,15 +23,15 @@
 				<li class="logo-nav">
 					<img class= "coarse_logo" src="SiteImages/coarselogo2.png">
 				</li>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="index.html#aboutme">About</a></li>
-				<li><a href="index.html#projects">Projects</a></li>
-				<li><a href="index.html#work">Work</a></li>
-				<li><a href="index.html#languages">Languages</a></li>
-				<li><a href="index.html#contact">Contact</a></li>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#aboutme">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#work">Work</a></li>
+				<li><a href="#languages">Languages</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</nav>
 		</div>
-	<div class= site-wrap>
+	<div class='site-wrap' id='home'>
 		<div class="nav-background">
 			<div class="nav-titlebox">
 				<p class="nav-titlebox-company">Coarse Coding</p>
@@ -81,11 +80,11 @@
 							<img class="logo" src="SiteImages/coarselogo.png">
 							<div class="project-col">
 								<p class="coarse project-title">Coarse Coding</p>
-								<p class="coarse project-desc">I built this site using raw HTML, CSS, and Javascript. It was nice to take a break from building other's sites and focus on my own, having freedom of expression and creative ability.</p>
+								<p class="coarse project-desc">I built this site using raw HTML, CSS, and Javascript. It was nice to take a break from building other's sites and focus on my own, getting free reinffd of freedom of expression and creative ability.</p>
 							</div>
 						</div>
 						<p class="learn-more coarse-coding"  id ="learn-coarse">Learn more</p>
-						
+					
 					</div>
 				</div>
 				<div class="action-card">
@@ -98,7 +97,8 @@
 								</div>
 							
 								<div class="intra project-desc">
-									<p>The idea for my most recent project stemmed from the realization that there was a hole in the e-gaming market. Only the top, professional video gamers play for profit and perks, leaving...</p>
+									<p>The idea for this project stemmed from the realization that there was a hole in the e-gaming market. This project offers a platform for gamers to create a cohesive network with peers for fun and profit.</p>
+
 									<!--  the rest of the market untouched. This is what led me to co-found Intraleagues, a platform that offers gamers an opportunity to build a cohesive network and game with peers in their area for both fun and profit. I was responsible for outreach, staging, and development of the website. By the end of six months, we had 70 active users, three leagues, and competed for and won angel seed money to continue to build our user base and extend our reach. -->
 								</div>
 							</div>
@@ -120,12 +120,8 @@
 								This blog was one of my first projects where I really was able to learn how to build a site (compatible across all platforms, what is aesthetically pleasing and what wasn't, etc). This project was as challenging as it...</p>
 								<!--   was rewarding because it is what sparked my interest in Front-End Development. -->
 							</div>	
-				
 						</div>
-
-					<p class="learn-more wanderer" id ="learn-wanderer">Learn more</p>
-		
-
+						<p class="learn-more wanderer" id ="learn-wanderer" id="learn-more">Learn more</p>		
 					</div>
 				</div>
 				<div class="action-card">
@@ -141,6 +137,21 @@
 					</div>
 				</div>
 			</div>
+			<div class="projects-top">
+				<div class="action-card">
+					<div class="project janephotography">
+						<div class="flex-project">
+							<img class="logo" src="SiteImages/BonhamPhoto.png">
+							<div class="janephotography project-col">
+								<p  class="janephotography project-title">Jane Bonham Photography</p>
+								<p class="janephotography project-desc">
+								This blog was one of my first projects where I really was able to learn how to build a site (compatible across all platforms, what is aesthetically pleasing and what wasn't, etc). This project was as challenging as it...</p>
+								<!--   was rewarding because it is what sparked my interest in Front-End Development. -->
+							</div>	
+						</div>
+						<p class="learn-more janephotography" id ="learn-janephotography" id="learn-more">Learn more</p>		
+					</div>
+				</div>
 		</div>
 	
 	<!-- 					<div class="project holmes">
@@ -265,7 +276,27 @@
 						<p> Copyright © 2018 Sigal Sax and CoarseCoding thekosherwanderer.com • All rights reserved. Celebrating the beauty in design and development.</p>
 					</div>
 				</div> -->
+				
 		</div>
+
+<!-- <form>
+  <h1 class="section-heading-center">DROP A LINE </h1>
+  <div class="contact-form" id="contact">
+    <div class="outer-form-box">
+    <form method="post" action="/form">
+      <label for="name">NAME:</label><input type="name" name="Name:"><br>
+      <label for="email">EMAIL:</label><input type="email" name="Email:"><br>
+      <label for="message">MESSAGE:</label><textarea class= "msg" rows="10" col="50"></textarea>
+      <input type="submit" class="submit" value="Submit">SUBMIT</input>
+    </div>
+    <div class="outer-form-box-note">
+      <h4 class="outer-form-box-note-title"> I want to hear from you!</h4>
+      <p class="outer-form-description">Please feel free to reach out to me. I would love to hear from you- beit, questions, stories, or just in need of suggestions. The journey has been tough but it is very possible to be kosher, religious, and travel.</p>
+      <br>
+      <p class="small-text">Chat soon!</p>
+    </div>
+  </div>
+</form>
 	
 			<div class="footer">
 				<div class="footer_logo">
@@ -276,5 +307,21 @@
 			
 				</div>
 			</div>
-		</div>
-</body>
+		</div> -->
+<!-- <form action="/form" method='post'>
+	  Subject:<br>
+	<input type="text" name="subject" value="Subject"><br>
+	  First name:<br>
+	<input type="text" name="firstname" value="Mickey"><br>
+	  Last name:<br>
+	<input type="text" name="lastname" value="Mouse"><br><br>
+	Message<br>
+	<input type="text" name="message" value="message"><br><br>
+	<input type="submit" value="Submit">
+</form>
+</body> -->
+	<script>
+
+	</script>
+ 	<script src="javascript.js"></script>
+	
