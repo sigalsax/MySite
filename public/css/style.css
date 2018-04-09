@@ -522,6 +522,7 @@ p{
 .project{
     /* padding: 24px; */
     min-width: 420px;
+    max-width: 420px;
     color: #576f7f;
     font-weight: 400;
     margin-bottom: 0;
